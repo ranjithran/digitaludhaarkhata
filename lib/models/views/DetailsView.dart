@@ -26,7 +26,7 @@ class DetailsView extends StatelessWidget {
                   child: GestureDetector(
                 onTap: () {
                   FlutterShareMe()
-                      .shareToWhatsApp(base64Image: "ran", msg: "ranjith");
+                      .shareToWhatsApp(base64Image: "ran", msg: datetime + " " + money.toString());
                 },
                 child: IconTextIcon(
                   icon: MdiIcons.whatsapp,

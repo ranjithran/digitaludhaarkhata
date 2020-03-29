@@ -44,6 +44,7 @@ class CustomerView extends StatelessWidget {
                       content: Column(
                         children: <Widget>[
                           TextField(
+                            keyboardType: TextInputType.number,
                             controller: _textEditingController,
                             decoration: InputDecoration(
                               icon: Icon(MdiIcons.currencyInr),
@@ -90,6 +91,7 @@ class CustomerView extends StatelessWidget {
                       content: Column(
                         children: <Widget>[
                           TextField(
+                            keyboardType: TextInputType.number,
                             controller: _textEditingController,
                             decoration: InputDecoration(
                               icon: Icon(MdiIcons.currencyInr),

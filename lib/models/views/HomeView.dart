@@ -53,6 +53,7 @@ class _HomeViewState extends State<HomeView> with TickerProviderStateMixin {
                 content: Column(
                   children: <Widget>[
                     TextField(
+                      
                       controller: _textEditingController,
                       decoration: InputDecoration(
                         icon: Icon(Icons.account_circle),
